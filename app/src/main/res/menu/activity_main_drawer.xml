@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="NewsNow">
+        <menu>
+            <item
+                android:id="@+id/nav_articles"
+                android:icon="@drawable/ic_news_24dp"
+                android:title="@string/articles" />
+            <item
+                android:id="@+id/nav_technology"
+                android:icon="@drawable/ic_news_24dp"
+                android:title="@string/technology" />
+
+            <item
+                android:id="@+id/nav_sources"
+                android:icon="@drawable/ic_news_24dp"
+                android:title="@string/sources" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
